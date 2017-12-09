@@ -1,0 +1,32 @@
+{
+  "name": "lol-stats-server",
+  "version": "0.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/kpollich/lol-stats-server.git",
+  "author": "Kyle Pollich <kpollich1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "format": "prettier --write **/*.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.1",
+    "supertest": "^3.0.0"
+  }
+}
