@@ -5,7 +5,7 @@ const summonerType = `
     accountId: Int!
     profileIconId: Int!
     summonerLevel: Int!
-    matches: [Match]
+    # matches: [Match]
   }
 `;
 

@@ -1,0 +1,55 @@
+Sample Summoner (Abseiler)
+
+{
+    "profileIconId": 749,
+    "name": "Abseiler",
+    "summonerLevel": 48,
+    "accountId": 39312709,
+    "id": 24850474,
+    "revisionDate": 1514561699000
+}
+
+Sample Match Set
+
+ "matches": [
+        {
+            "lane": "BOTTOM",
+            "gameId": 2682340773,
+            "champion": 76,
+            "platformId": "NA1",
+            "timestamp": 1514560126001,
+            "queue": 1010,
+            "role": "DUO",
+            "season": 9
+        },
+        {
+            "lane": "BOTTOM",
+            "gameId": 2682330217,
+            "champion": 17,
+            "platformId": "NA1",
+            "timestamp": 1514558262023,
+            "queue": 1010,
+            "role": "DUO_SUPPORT",
+            "season": 9
+        },
+        {
+            "lane": "TOP",
+            "gameId": 2682079592,
+            "champion": 41,
+            "platformId": "NA1",
+            "timestamp": 1514518984614,
+            "queue": 400,
+            "role": "SOLO",
+            "season": 9
+        },
+        {
+            "lane": "BOTTOM",
+            "gameId": 2682051400,
+            "champion": 67,
+            "platformId": "NA1",
+            "timestamp": 1514516646851,
+            "queue": 400,
+            "role": "DUO_CARRY",
+            "season": 9
+        }
+ ]
